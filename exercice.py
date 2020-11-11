@@ -72,9 +72,9 @@ def integrate_and_plot() -> tuple:
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
-    # print(linear_values())
-    # print(coordinate_conversion(np.array([(0, 0), (10, 10)])))
-    # print(find_closest_index(np.array([0, 5, 10, 12, 8]), 10.5))
+    print(linear_values())
+    print(coordinate_conversion(np.array([(0, 0), (10, 10)])))
+    print(find_closest_index(np.array([0, 5, 10, 12, 8]), 10.5))
     create_graph()
     print(monte_carlo())
     integrate_and_plot()
